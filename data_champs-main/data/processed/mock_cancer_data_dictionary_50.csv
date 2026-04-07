@@ -1,0 +1,51 @@
+request_id,data_point_name,domain,description,expected_data_type,expected_table,expected_column,priority,feasibility_note
+CDP001,age_at_diagnosis,demographics,Patient age in years at first cancer diagnosis,int,raw_cancer_patients,year_of_birth,HIGH,Derive from diagnosis date and year_of_birth
+CDP002,sex,demographics,Administrative sex recorded for patient,string,raw_cancer_patients,sex,HIGH,Directly available
+CDP003,ethnicity_group,demographics,Broad ethnicity grouping for equity analyses,string,raw_cancer_patients,ethnicity_group,HIGH,Directly available
+CDP004,smoking_status,demographics,Smoking history category at baseline,string,raw_cancer_patients,smoking_status,HIGH,Directly available
+CDP005,bmi_at_baseline,demographics,Baseline body mass index near diagnosis,double,raw_cancer_patients,bmi,MEDIUM,May require time-window logic
+CDP006,charlson_index,comorbidity,Charlson comorbidity index at baseline,int,raw_cancer_patients,charlson_index,HIGH,Directly available
+CDP007,imd_quintile,demographics,Deprivation score quintile derived from area geography,int,raw_cancer_patients,postcode_lsoa,MEDIUM,Needs reference mapping from LSOA
+CDP008,registration_date,administrative,Date first registered in cancer dataset,date,raw_cancer_patients,registration_date,LOW,Useful for data completeness checks
+CDP009,is_deceased,demographics,Whether patient is known to be deceased,int,raw_cancer_patients,is_deceased,HIGH,Directly available
+CDP010,death_date,demographics,Date of death when available,date,raw_cancer_patients,death_date,HIGH,Population may be low in recent cohorts
+CDP011,primary_cancer_site,diagnosis,Primary anatomical cancer site,string,raw_cancer_diagnoses,cancer_site,HIGH,Directly available
+CDP012,primary_icd10_code,diagnosis,ICD-10 code for primary malignancy,string,raw_cancer_diagnoses,icd10_code,HIGH,Directly available
+CDP013,diagnosis_date,diagnosis,Date of cancer diagnosis,date,raw_cancer_diagnoses,diagnosis_date,HIGH,Directly available
+CDP014,stage_group_at_diagnosis,diagnosis,Overall cancer stage at diagnosis,string,raw_cancer_diagnoses,stage_group,HIGH,Directly available
+CDP015,morphology_code,diagnosis,Tumour morphology or histology code,string,raw_cancer_diagnoses,morphology_code,MEDIUM,Direct but clinical coding quality may vary
+CDP016,tnm_t,diagnosis,TNM primary tumour component,string,raw_cancer_diagnoses,tnm_t,MEDIUM,Directly available
+CDP017,tnm_n,diagnosis,TNM nodal component,string,raw_cancer_diagnoses,tnm_n,MEDIUM,Directly available
+CDP018,tnm_m,diagnosis,TNM metastatic component,string,raw_cancer_diagnoses,tnm_m,MEDIUM,Directly available
+CDP019,metastatic_flag,diagnosis,Indicator of metastatic disease at diagnosis,int,raw_cancer_diagnoses,metastatic_flag,HIGH,Directly available
+CDP020,mdt_pathway,diagnosis,Pathway urgency or MDT route,string,raw_cancer_diagnoses,mdt_pathway,LOW,Definition should be validated with clinicians
+CDP021,first_treatment_start_date,treatment,Date of first systemic or local treatment,date,raw_cancer_treatments,treatment_start_date,HIGH,Requires earliest-date aggregation by patient
+CDP022,treatment_modality,treatment,Primary modality such as surgery or chemotherapy,string,raw_cancer_treatments,treatment_modality,HIGH,Directly available
+CDP023,regimen_code,treatment,Systemic regimen code where applicable,string,raw_cancer_treatments,regimen_code,MEDIUM,Directly available
+CDP024,cycle_number,treatment,Treatment cycle number for systemic therapy,int,raw_cancer_treatments,cycle_number,MEDIUM,Directly available
+CDP025,dose_mg,treatment,Administered treatment dose in milligrams,double,raw_cancer_treatments,dose_mg,MEDIUM,Missingness should be profiled by modality
+CDP026,treatment_intent,treatment,Curative or palliative intent category,string,raw_cancer_treatments,intent,HIGH,Directly available
+CDP027,best_treatment_response,treatment,Best documented response to treatment,string,raw_cancer_treatments,treatment_response,HIGH,Directly available
+CDP028,max_toxicity_grade,treatment,Maximum toxicity grade experienced during treatment,int,raw_cancer_treatments,toxicity_grade,MEDIUM,May need max aggregation over cycles
+CDP029,lines_of_therapy,treatment,Count of distinct treatment lines per patient,int,raw_cancer_treatments,regimen_code,MEDIUM,Derived metric from ordered regimens
+CDP030,treatment_duration_days,treatment,Duration from treatment start to end in days,int,raw_cancer_treatments,treatment_start_date,LOW,Needs treatment end date or proxy logic
+CDP031,progression_flag,outcomes,Whether progressive disease has occurred,int,raw_cancer_treatments,treatment_response,HIGH,Can derive from progressive response category
+CDP032,response_rate,outcomes,Share of complete or partial responses,double,raw_cancer_treatments,treatment_response,MEDIUM,Derived cohort-level endpoint
+CDP033,time_to_treatment_days,outcomes,Days from diagnosis to first treatment,int,raw_cancer_diagnoses,diagnosis_date,HIGH,Join with first treatment date
+CDP034,overall_survival_days,outcomes,Days from diagnosis to death or censoring,int,raw_cancer_patients,death_date,HIGH,Derived from diagnosis and death/censor date
+CDP035,one_year_survival_flag,outcomes,Alive at 365 days from diagnosis,int,raw_cancer_patients,is_deceased,MEDIUM,Derived using diagnosis and death date
+CDP036,mortality_30d_post_treatment,outcomes,Death within 30 days of treatment start,int,raw_cancer_treatments,treatment_start_date,MEDIUM,Needs join to death date
+CDP037,metastasis_at_progression,outcomes,Metastatic disease by time of progression,int,raw_cancer_diagnoses,metastatic_flag,LOW,May need repeat diagnosis snapshots
+CDP038,real_world_pfs_days,outcomes,Progression-free survival in days,int,raw_cancer_treatments,treatment_start_date,LOW,Requires progression event definition
+CDP039,time_to_next_treatment_days,outcomes,Days from one regimen start to next regimen start,int,raw_cancer_treatments,treatment_start_date,LOW,Requires ordered treatment episodes
+CDP040,hospital_admission_count_12m,utilization,Number of inpatient admissions within 12 months of diagnosis,int,raw_cancer_outcomes,patient_sk,LOW,Placeholder until encounter table is linked
+CDP041,ed_attendance_count_12m,utilization,Number of emergency attendances within 12 months,int,raw_cancer_outcomes,patient_sk,LOW,Placeholder until emergency activity source is linked
+CDP042,outpatient_visit_count_12m,utilization,Number of outpatient visits in first 12 months,int,raw_cancer_outcomes,patient_sk,LOW,Placeholder until outpatient table is linked
+CDP043,icu_admission_flag,utilization,Any ICU admission during treatment period,int,raw_cancer_outcomes,patient_sk,LOW,Requires critical care source integration
+CDP044,length_of_stay_total_days,utilization,Total inpatient length of stay during follow-up,int,raw_cancer_outcomes,patient_sk,LOW,Requires admission/discharge timestamps
+CDP045,diagnostic_delay_days,care_pathway,Days from referral to diagnosis,int,raw_cancer_diagnoses,diagnosis_date,LOW,Needs referral date from pathway source
+CDP046,treatment_delay_days,care_pathway,Days from MDT decision to treatment start,int,raw_cancer_treatments,treatment_start_date,LOW,Needs MDT decision date source
+CDP047,clinical_trial_enrollment_flag,care_pathway,Whether patient enrolled in a cancer trial,int,raw_cancer_outcomes,patient_sk,LOW,Requires linkage to trial recruitment data
+CDP048,molecular_test_performed_flag,biomarkers,Whether tumour molecular profiling was performed,int,raw_cancer_outcomes,patient_sk,LOW,Requires pathology/genomics source
+CDP049,pd_l1_expression_percent,biomarkers,Programmed death-ligand 1 expression percentage,double,raw_cancer_outcomes,patient_sk,LOW,Requires structured biomarker results
+CDP050,egfr_mutation_status,biomarkers,EGFR mutation positive or negative status,string,raw_cancer_outcomes,patient_sk,LOW,Requires genomics variant table

@@ -1,0 +1,3 @@
+model_name,table_name,row_count,populated_pct,access_status,top_5_values,suggestion
+cancer_model,cancer_synthetic,10,100.0,ANON_ONLY,anon_140bedbf9c (n=3); anon_2e561ff235 (n=2); anon_399dbc8659 (n=2); anon_a83dd0ccbf (n=2); anon_2c65a48513 (n=1),Anonymized access only. Request full table permission if record-level values are needed.
+cancer_model,cancer_treatment_view,10,100.0,ANON_ONLY,anon_140bedbf9c (n=3); anon_ec0f3b0bd1 (n=2); anon_fc00eb484b (n=2); anon_2b054a7891 (n=1); anon_7f9e778d18 (n=1),Anonymized access only. Request full table permission if record-level values are needed.

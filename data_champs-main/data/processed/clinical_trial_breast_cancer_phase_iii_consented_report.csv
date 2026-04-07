@@ -1,0 +1,121 @@
+row_id,patient_sk,trial_id,trial_name,trial_phase,enrollment_date,cancer_type,disease_status,treatment_arm,patient_consent,consent_date,withdrawal_date,trial_status,source_system,record_date
+283,PT_002675,TRIAL_976746,Oncology Study 2022-7007,Phase III,2024-12-22,Breast Cancer,Stable,Treatment B,Y,2024-12-24,,Withdrawn,Cerner,2026-03-18
+5579,PT_004147,TRIAL_774020,Oncology Study 2022-4126,Phase III,2024-12-22,Breast Cancer,Progressive,Treatment C,Y,2025-01-07,,Completed,Cerner,2026-03-18
+4303,PT_004601,TRIAL_349736,Oncology Study 2024-4659,Phase III,2024-12-18,Breast Cancer,Progressive,Combination A+B,Y,2025-01-06,,Active,Cerner,2026-03-18
+1041,PT_004825,TRIAL_245755,Oncology Study 2024-4018,Phase III,2024-12-16,Breast Cancer,Stable,Combination B+C,Y,2024-12-30,,Active,Cerner,2026-03-18
+4729,PT_001861,TRIAL_432150,Oncology Study 2024-3312,Phase III,2024-12-10,Breast Cancer,Newly Diagnosed,Combination B+C,Y,2024-12-18,,Withdrawn,Cerner,2026-03-18
+4714,PT_000324,TRIAL_905396,Oncology Study 2024-8040,Phase III,2024-11-20,Breast Cancer,Recurrent,Combination A+B,Y,2024-11-24,,Suspended,Cerner,2026-03-18
+8413,PT_004375,TRIAL_313630,Oncology Study 2023-8184,Phase III,2024-10-24,Breast Cancer,Stable,Combination A+B,Y,2024-10-28,,Active,Cerner,2026-03-18
+2989,PT_001864,TRIAL_200743,Oncology Study 2022-6626,Phase III,2024-09-01,Breast Cancer,Stable,Combination A+B,Y,2024-09-03,,Active,Cerner,2026-03-18
+7248,PT_004348,TRIAL_120340,Oncology Study 2024-1619,Phase III,2024-08-14,Breast Cancer,Recurrent,Combination B+C,Y,2024-08-18,,Active,Cerner,2026-03-18
+4240,PT_002935,TRIAL_898133,Oncology Study 2022-9624,Phase III,2024-08-13,Breast Cancer,Metastatic,Control (Standard Care),Y,2024-08-13,,Withdrawn,Cerner,2026-03-18
+2593,PT_000333,TRIAL_853247,Oncology Study 2025-7820,Phase III,2024-07-20,Breast Cancer,Progressive,Treatment B,Y,2024-08-09,,Suspended,Cerner,2026-03-18
+7835,PT_003366,TRIAL_444339,Oncology Study 2023-3100,Phase III,2024-06-25,Breast Cancer,Newly Diagnosed,Treatment A,Y,2024-07-13,,Suspended,Cerner,2026-03-18
+9153,PT_001139,TRIAL_254689,Oncology Study 2020-3317,Phase III,2024-06-20,Breast Cancer,Stable,Control (Standard Care),Y,2024-07-16,,Withdrawn,Cerner,2026-03-18
+7236,PT_002723,TRIAL_763779,Oncology Study 2023-4641,Phase III,2024-06-08,Breast Cancer,Newly Diagnosed,Combination B+C,Y,2024-07-07,2024-11-18,Completed,Cerner,2026-03-18
+8320,PT_004372,TRIAL_756915,Oncology Study 2025-5172,Phase III,2024-05-19,Breast Cancer,Remission,Combination A+B,Y,2024-05-21,,Active,Cerner,2026-03-18
+2469,PT_004796,TRIAL_730898,Oncology Study 2025-4657,Phase III,2024-05-18,Breast Cancer,Progressive,Treatment B,Y,2024-06-15,,Completed,Cerner,2026-03-18
+9432,PT_003360,TRIAL_925078,Oncology Study 2025-8489,Phase III,2024-05-08,Breast Cancer,Recurrent,Combination A+B,Y,2024-06-07,,Suspended,Cerner,2026-03-18
+3735,PT_000933,TRIAL_355343,Oncology Study 2023-3708,Phase III,2024-04-30,Breast Cancer,Metastatic,Treatment A,Y,2024-04-30,,Suspended,Cerner,2026-03-18
+5608,PT_003393,TRIAL_249090,Oncology Study 2023-4201,Phase III,2024-04-27,Breast Cancer,Metastatic,Combination A+B,Y,2024-05-06,,Suspended,Cerner,2026-03-18
+4856,PT_000019,TRIAL_473813,Oncology Study 2021-3271,Phase III,2024-04-19,Breast Cancer,Recurrent,Treatment B,Y,2024-04-21,,Withdrawn,Cerner,2026-03-18
+4110,PT_001421,TRIAL_948291,Oncology Study 2021-7602,Phase III,2024-04-06,Breast Cancer,Newly Diagnosed,Treatment B,Y,2024-04-12,,Withdrawn,Cerner,2026-03-18
+2946,PT_004849,TRIAL_508632,Oncology Study 2020-8404,Phase III,2024-03-26,Breast Cancer,Recurrent,Treatment B,Y,2024-04-23,2026-01-28,Suspended,Cerner,2026-03-18
+9708,PT_002304,TRIAL_377087,Oncology Study 2025-7605,Phase III,2024-03-08,Breast Cancer,Metastatic,Combination A+B,Y,2024-04-05,,Active,Cerner,2026-03-18
+6520,PT_002111,TRIAL_759544,Oncology Study 2022-9866,Phase III,2024-01-31,Breast Cancer,Recurrent,Treatment B,Y,2024-01-31,,Active,Cerner,2026-03-18
+843,PT_000733,TRIAL_884146,Oncology Study 2020-1137,Phase III,2024-01-22,Breast Cancer,Remission,Treatment B,Y,2024-02-16,,Active,Cerner,2026-03-18
+4300,PT_004607,TRIAL_393490,Oncology Study 2020-7938,Phase III,2024-01-11,Breast Cancer,Metastatic,Combination A+B,Y,2024-01-18,,Withdrawn,Cerner,2026-03-18
+2745,PT_003409,TRIAL_650903,Oncology Study 2021-5378,Phase III,2023-12-08,Breast Cancer,Stable,Control (Standard Care),Y,2023-12-15,,Completed,Cerner,2026-03-18
+8867,PT_002097,TRIAL_855062,Oncology Study 2020-2886,Phase III,2023-11-26,Breast Cancer,Remission,Combination B+C,Y,2023-12-23,,Completed,Cerner,2026-03-18
+5768,PT_003900,TRIAL_443046,Oncology Study 2024-8994,Phase III,2023-10-22,Breast Cancer,Progressive,Control (Standard Care),Y,2023-10-30,,Withdrawn,Cerner,2026-03-18
+4599,PT_003517,TRIAL_750177,Oncology Study 2023-4628,Phase III,2023-10-17,Breast Cancer,Metastatic,Treatment A,Y,2023-10-24,,Active,Cerner,2026-03-18
+5577,PT_004196,TRIAL_865738,Oncology Study 2024-5862,Phase III,2023-10-17,Breast Cancer,Stable,Control (Standard Care),Y,2023-11-13,,Completed,Cerner,2026-03-18
+980,PT_004539,TRIAL_646678,Oncology Study 2023-7064,Phase III,2023-10-14,Breast Cancer,Remission,Treatment B,Y,2023-10-20,,Suspended,Cerner,2026-03-18
+7809,PT_001040,TRIAL_207546,Oncology Study 2024-5849,Phase III,2023-10-06,Breast Cancer,Remission,Treatment A,Y,2023-10-06,,Active,Cerner,2026-03-18
+5157,PT_002492,TRIAL_613771,Oncology Study 2021-5845,Phase III,2023-08-29,Breast Cancer,Stable,Control (Standard Care),Y,2023-09-15,,Withdrawn,Cerner,2026-03-18
+1906,PT_000962,TRIAL_829367,Oncology Study 2025-4138,Phase III,2023-08-22,Breast Cancer,Newly Diagnosed,Treatment C,Y,2023-09-18,,Suspended,Cerner,2026-03-18
+4515,PT_001337,TRIAL_728327,Oncology Study 2024-9690,Phase III,2023-08-21,Breast Cancer,Newly Diagnosed,Combination A+B,Y,2023-09-15,,Completed,Cerner,2026-03-18
+3537,PT_002374,TRIAL_742120,Oncology Study 2021-2805,Phase III,2023-08-07,Breast Cancer,Progressive,Treatment A,Y,2023-08-20,,Completed,Cerner,2026-03-18
+6906,PT_000539,TRIAL_764636,Oncology Study 2021-9899,Phase III,2023-06-20,Breast Cancer,Progressive,Control (Standard Care),Y,2023-07-17,,Suspended,Cerner,2026-03-18
+1798,PT_001745,TRIAL_178493,Oncology Study 2022-1618,Phase III,2023-06-11,Breast Cancer,Newly Diagnosed,Combination B+C,Y,2023-06-30,,Suspended,Cerner,2026-03-18
+218,PT_003794,TRIAL_493058,Oncology Study 2024-6496,Phase III,2023-05-21,Breast Cancer,Newly Diagnosed,Control (Standard Care),Y,2023-06-15,2023-12-31,Active,Cerner,2026-03-18
+3680,PT_004692,TRIAL_963472,Oncology Study 2025-3416,Phase III,2023-05-16,Breast Cancer,Remission,Combination A+B,Y,2023-05-30,,Withdrawn,Cerner,2026-03-18
+2697,PT_000002,TRIAL_270316,Oncology Study 2020-6434,Phase III,2023-05-07,Breast Cancer,Stable,Combination B+C,Y,2023-05-22,,Active,Cerner,2026-03-18
+5275,PT_000346,TRIAL_898777,Oncology Study 2024-1722,Phase III,2023-05-07,Breast Cancer,Remission,Control (Standard Care),Y,2023-05-20,,Active,Cerner,2026-03-18
+8703,PT_000429,TRIAL_364807,Oncology Study 2020-9357,Phase III,2023-04-17,Breast Cancer,Recurrent,Treatment C,Y,2023-04-28,,Completed,Cerner,2026-03-18
+6056,PT_001179,TRIAL_975606,Oncology Study 2023-2650,Phase III,2023-03-31,Breast Cancer,Metastatic,Treatment C,Y,2023-04-01,,Active,Cerner,2026-03-18
+687,PT_000825,TRIAL_761126,Oncology Study 2024-8420,Phase III,2023-03-08,Breast Cancer,Remission,Treatment C,Y,2023-04-05,,Active,Cerner,2026-03-18
+7490,PT_004625,TRIAL_437719,Oncology Study 2024-8246,Phase III,2023-02-23,Breast Cancer,Remission,Combination B+C,Y,2023-03-03,,Suspended,Cerner,2026-03-18
+782,PT_000070,TRIAL_974932,Oncology Study 2024-4702,Phase III,2023-02-19,Breast Cancer,Newly Diagnosed,Control (Standard Care),Y,2023-02-24,,Withdrawn,Cerner,2026-03-18
+7550,PT_003323,TRIAL_805402,Oncology Study 2025-5951,Phase III,2023-02-14,Breast Cancer,Newly Diagnosed,Control (Standard Care),Y,2023-02-17,,Suspended,Cerner,2026-03-18
+5903,PT_003947,TRIAL_149089,Oncology Study 2024-2515,Phase III,2023-01-20,Breast Cancer,Newly Diagnosed,Combination B+C,Y,2023-02-16,,Active,Cerner,2026-03-18
+6354,PT_004957,TRIAL_482539,Oncology Study 2024-8326,Phase III,2023-01-09,Breast Cancer,Metastatic,Treatment B,Y,2023-01-13,,Active,Cerner,2026-03-18
+5586,PT_000619,TRIAL_480023,Oncology Study 2020-8196,Phase III,2023-01-05,Breast Cancer,Progressive,Treatment B,Y,2023-01-17,,Withdrawn,Cerner,2026-03-18
+2219,PT_003534,TRIAL_723019,Oncology Study 2022-3278,Phase III,2022-12-29,Breast Cancer,Remission,Combination A+B,Y,2022-12-30,,Withdrawn,Cerner,2026-03-18
+59,PT_000704,TRIAL_413070,Oncology Study 2023-1998,Phase III,2022-12-12,Breast Cancer,Newly Diagnosed,Treatment B,Y,2023-01-10,,Withdrawn,Cerner,2026-03-18
+2685,PT_000357,TRIAL_398200,Oncology Study 2021-7407,Phase III,2022-11-22,Breast Cancer,Metastatic,Combination A+B,Y,2022-12-20,,Active,Cerner,2026-03-18
+5825,PT_001632,TRIAL_666981,Oncology Study 2021-8003,Phase III,2022-11-15,Breast Cancer,Stable,Combination B+C,Y,2022-11-16,,Withdrawn,Cerner,2026-03-18
+3125,PT_000734,TRIAL_623254,Oncology Study 2022-2483,Phase III,2022-11-12,Breast Cancer,Progressive,Control (Standard Care),Y,2022-11-12,,Suspended,Cerner,2026-03-18
+2085,PT_000626,TRIAL_400489,Oncology Study 2025-2513,Phase III,2022-11-10,Breast Cancer,Progressive,Treatment A,Y,2022-11-22,,Active,Cerner,2026-03-18
+3574,PT_002770,TRIAL_601024,Oncology Study 2021-3693,Phase III,2022-11-08,Breast Cancer,Stable,Combination B+C,Y,2022-11-18,,Active,Cerner,2026-03-18
+2044,PT_004590,TRIAL_706287,Oncology Study 2020-4138,Phase III,2022-10-25,Breast Cancer,Metastatic,Treatment C,Y,2022-11-22,,Withdrawn,Cerner,2026-03-18
+2627,PT_003114,TRIAL_961558,Oncology Study 2021-9262,Phase III,2022-10-01,Breast Cancer,Stable,Combination B+C,Y,2022-10-06,,Suspended,Cerner,2026-03-18
+3412,PT_002049,TRIAL_873817,Oncology Study 2022-2286,Phase III,2022-09-11,Breast Cancer,Progressive,Combination B+C,Y,2022-09-11,,Withdrawn,Cerner,2026-03-18
+8032,PT_003454,TRIAL_852293,Oncology Study 2021-6307,Phase III,2022-09-07,Breast Cancer,Metastatic,Combination A+B,Y,2022-09-24,,Withdrawn,Cerner,2026-03-18
+4150,PT_001522,TRIAL_971797,Oncology Study 2025-5573,Phase III,2022-07-14,Breast Cancer,Remission,Control (Standard Care),Y,2022-07-31,,Withdrawn,Cerner,2026-03-18
+8642,PT_004508,TRIAL_207810,Oncology Study 2025-4635,Phase III,2022-07-12,Breast Cancer,Newly Diagnosed,Treatment A,Y,2022-07-31,,Active,Cerner,2026-03-18
+3554,PT_000745,TRIAL_220534,Oncology Study 2022-6974,Phase III,2022-05-28,Breast Cancer,Newly Diagnosed,Treatment B,Y,2022-05-29,,Active,Cerner,2026-03-18
+4438,PT_000379,TRIAL_876470,Oncology Study 2020-1863,Phase III,2022-05-23,Breast Cancer,Newly Diagnosed,Control (Standard Care),Y,2022-06-17,,Completed,Cerner,2026-03-18
+7445,PT_003233,TRIAL_942194,Oncology Study 2025-1879,Phase III,2022-04-17,Breast Cancer,Recurrent,Treatment C,Y,2022-04-25,,Completed,Cerner,2026-03-18
+7672,PT_002055,TRIAL_605785,Oncology Study 2025-5540,Phase III,2022-03-28,Breast Cancer,Remission,Treatment C,Y,2022-04-24,,Withdrawn,Cerner,2026-03-18
+6614,PT_004929,TRIAL_639238,Oncology Study 2020-8860,Phase III,2022-03-13,Breast Cancer,Newly Diagnosed,Combination B+C,Y,2022-04-02,,Withdrawn,Cerner,2026-03-18
+913,PT_002284,TRIAL_882217,Oncology Study 2021-3364,Phase III,2022-02-26,Breast Cancer,Metastatic,Treatment C,Y,2022-03-04,,Active,Cerner,2026-03-18
+3625,PT_002126,TRIAL_981266,Oncology Study 2022-2695,Phase III,2022-02-12,Breast Cancer,Newly Diagnosed,Combination A+B,Y,2022-02-15,,Suspended,Cerner,2026-03-18
+4787,PT_000569,TRIAL_431936,Oncology Study 2022-1219,Phase III,2022-02-07,Breast Cancer,Recurrent,Combination A+B,Y,2022-02-26,,Active,Cerner,2026-03-18
+611,PT_001917,TRIAL_683650,Oncology Study 2022-5148,Phase III,2022-01-04,Breast Cancer,Stable,Treatment A,Y,2022-01-11,,Suspended,Cerner,2026-03-18
+398,PT_000496,TRIAL_177982,Oncology Study 2023-2517,Phase III,2021-11-16,Breast Cancer,Stable,Treatment A,Y,2021-11-22,,Completed,Cerner,2026-03-18
+2603,PT_002015,TRIAL_578099,Oncology Study 2024-1313,Phase III,2021-11-09,Breast Cancer,Newly Diagnosed,Combination B+C,Y,2021-11-19,2022-11-28,Active,Cerner,2026-03-18
+4765,PT_001060,TRIAL_353076,Oncology Study 2021-4328,Phase III,2021-11-02,Breast Cancer,Metastatic,Treatment B,Y,2021-11-23,,Completed,Cerner,2026-03-18
+441,PT_003877,TRIAL_376314,Oncology Study 2023-7162,Phase III,2021-11-02,Breast Cancer,Metastatic,Treatment C,Y,2021-11-20,,Completed,Cerner,2026-03-18
+1081,PT_001825,TRIAL_320992,Oncology Study 2020-6869,Phase III,2021-10-18,Breast Cancer,Newly Diagnosed,Treatment C,Y,2021-11-16,,Suspended,Cerner,2026-03-18
+4273,PT_000087,TRIAL_157161,Oncology Study 2021-9758,Phase III,2021-10-11,Breast Cancer,Metastatic,Treatment A,Y,2021-10-11,,Completed,Cerner,2026-03-18
+2788,PT_004112,TRIAL_460374,Oncology Study 2024-8603,Phase III,2021-10-07,Breast Cancer,Metastatic,Treatment B,Y,2021-10-15,,Suspended,Cerner,2026-03-18
+2741,PT_003122,TRIAL_918165,Oncology Study 2023-6756,Phase III,2021-10-05,Breast Cancer,Progressive,Control (Standard Care),Y,2021-10-25,,Completed,Cerner,2026-03-18
+8241,PT_001020,TRIAL_669006,Oncology Study 2023-7248,Phase III,2021-09-27,Breast Cancer,Progressive,Control (Standard Care),Y,2021-09-28,,Completed,Cerner,2026-03-18
+906,PT_002182,TRIAL_137351,Oncology Study 2024-1021,Phase III,2021-07-20,Breast Cancer,Remission,Combination A+B,Y,2021-08-04,,Withdrawn,Cerner,2026-03-18
+1936,PT_001505,TRIAL_360027,Oncology Study 2021-9979,Phase III,2021-07-13,Breast Cancer,Recurrent,Control (Standard Care),Y,2021-08-01,,Withdrawn,Cerner,2026-03-18
+4616,PT_000358,TRIAL_628728,Oncology Study 2025-8592,Phase III,2021-06-30,Breast Cancer,Metastatic,Combination A+B,Y,2021-07-06,,Completed,Cerner,2026-03-18
+5436,PT_004400,TRIAL_733280,Oncology Study 2021-2512,Phase III,2021-06-11,Breast Cancer,Newly Diagnosed,Combination A+B,Y,2021-06-19,,Withdrawn,Cerner,2026-03-18
+4900,PT_003562,TRIAL_843578,Oncology Study 2025-6263,Phase III,2021-05-29,Breast Cancer,Newly Diagnosed,Control (Standard Care),Y,2021-06-11,,Suspended,Cerner,2026-03-18
+4093,PT_002708,TRIAL_288920,Oncology Study 2020-7801,Phase III,2021-05-28,Breast Cancer,Progressive,Treatment A,Y,2021-06-24,,Completed,Cerner,2026-03-18
+4618,PT_004332,TRIAL_623358,Oncology Study 2024-4908,Phase III,2021-05-21,Breast Cancer,Remission,Treatment C,Y,2021-06-09,,Completed,Cerner,2026-03-18
+3722,PT_002412,TRIAL_635455,Oncology Study 2020-9306,Phase III,2021-05-04,Breast Cancer,Newly Diagnosed,Treatment A,Y,2021-05-16,2021-09-22,Active,Cerner,2026-03-18
+8673,PT_002551,TRIAL_624780,Oncology Study 2024-1704,Phase III,2021-05-02,Breast Cancer,Recurrent,Treatment C,Y,2021-05-20,,Suspended,Cerner,2026-03-18
+8704,PT_002536,TRIAL_544539,Oncology Study 2023-4828,Phase III,2021-04-27,Breast Cancer,Recurrent,Treatment A,Y,2021-05-03,,Suspended,Cerner,2026-03-18
+4586,PT_001840,TRIAL_713248,Oncology Study 2021-2499,Phase III,2021-02-24,Breast Cancer,Stable,Treatment C,Y,2021-03-09,,Completed,Cerner,2026-03-18
+7122,PT_002933,TRIAL_405268,Oncology Study 2024-8919,Phase III,2021-02-14,Breast Cancer,Remission,Treatment B,Y,2021-03-10,,Active,Cerner,2026-03-18
+5478,PT_002258,TRIAL_759960,Oncology Study 2020-5762,Phase III,2021-02-08,Breast Cancer,Remission,Control (Standard Care),Y,2021-02-21,,Suspended,Cerner,2026-03-18
+9626,PT_004293,TRIAL_435178,Oncology Study 2021-9629,Phase III,2021-01-28,Breast Cancer,Stable,Treatment C,Y,2021-01-30,,Active,Cerner,2026-03-18
+2719,PT_001197,TRIAL_777039,Oncology Study 2021-7211,Phase III,2021-01-20,Breast Cancer,Recurrent,Treatment A,Y,2021-02-11,,Completed,Cerner,2026-03-18
+2180,PT_004287,TRIAL_918956,Oncology Study 2025-2514,Phase III,2021-01-04,Breast Cancer,Remission,Treatment C,Y,2021-01-06,,Active,Cerner,2026-03-18
+4207,PT_002567,TRIAL_351205,Oncology Study 2022-4717,Phase III,2020-12-24,Breast Cancer,Recurrent,Combination B+C,Y,2020-12-28,,Suspended,Cerner,2026-03-18
+8865,PT_000901,TRIAL_849213,Oncology Study 2022-2924,Phase III,2020-12-22,Breast Cancer,Progressive,Treatment B,Y,2021-01-01,,Completed,Cerner,2026-03-18
+305,PT_004712,TRIAL_795511,Oncology Study 2021-7693,Phase III,2020-12-14,Breast Cancer,Remission,Control (Standard Care),Y,2020-12-23,,Active,Cerner,2026-03-18
+6602,PT_002200,TRIAL_577402,Oncology Study 2022-4568,Phase III,2020-11-22,Breast Cancer,Progressive,Treatment A,Y,2020-12-04,,Withdrawn,Cerner,2026-03-18
+1988,PT_003381,TRIAL_336966,Oncology Study 2023-9423,Phase III,2020-11-01,Breast Cancer,Progressive,Combination A+B,Y,2020-11-20,,Active,Cerner,2026-03-18
+4590,PT_000249,TRIAL_424569,Oncology Study 2024-1591,Phase III,2020-10-25,Breast Cancer,Metastatic,Treatment B,Y,2020-11-21,,Completed,Cerner,2026-03-18
+2197,PT_000799,TRIAL_119210,Oncology Study 2021-3230,Phase III,2020-10-25,Breast Cancer,Recurrent,Combination B+C,Y,2020-11-19,,Completed,Cerner,2026-03-18
+7930,PT_001871,TRIAL_465123,Oncology Study 2025-6651,Phase III,2020-09-29,Breast Cancer,Recurrent,Treatment C,Y,2020-10-19,,Suspended,Cerner,2026-03-18
+2063,PT_003013,TRIAL_515246,Oncology Study 2023-7976,Phase III,2020-09-27,Breast Cancer,Metastatic,Treatment B,Y,2020-10-11,2020-11-23,Suspended,Cerner,2026-03-18
+8326,PT_000801,TRIAL_396090,Oncology Study 2025-5672,Phase III,2020-09-15,Breast Cancer,Recurrent,Treatment C,Y,2020-09-25,,Withdrawn,Cerner,2026-03-18
+1998,PT_001585,TRIAL_372349,Oncology Study 2025-6570,Phase III,2020-08-04,Breast Cancer,Stable,Combination B+C,Y,2020-08-21,,Active,Cerner,2026-03-18
+4426,PT_001863,TRIAL_493617,Oncology Study 2025-3896,Phase III,2020-06-20,Breast Cancer,Newly Diagnosed,Combination A+B,Y,2020-06-29,,Suspended,Cerner,2026-03-18
+9853,PT_003726,TRIAL_493218,Oncology Study 2023-5990,Phase III,2020-06-02,Breast Cancer,Metastatic,Combination B+C,Y,2020-06-08,,Withdrawn,Cerner,2026-03-18
+7606,PT_004118,TRIAL_381013,Oncology Study 2021-6042,Phase III,2020-03-29,Breast Cancer,Remission,Combination A+B,Y,2020-04-15,,Completed,Cerner,2026-03-18
+9885,PT_001682,TRIAL_575938,Oncology Study 2020-8716,Phase III,2020-03-06,Breast Cancer,Recurrent,Combination A+B,Y,2020-03-10,,Completed,Cerner,2026-03-18
+3712,PT_002023,TRIAL_585522,Oncology Study 2023-5553,Phase III,2020-03-01,Breast Cancer,Newly Diagnosed,Treatment A,Y,2020-03-30,,Active,Cerner,2026-03-18
+3274,PT_003085,TRIAL_603363,Oncology Study 2023-5903,Phase III,2020-03-01,Breast Cancer,Stable,Treatment B,Y,2020-03-20,,Completed,Cerner,2026-03-18
+2955,PT_003184,TRIAL_621210,Oncology Study 2025-6516,Phase III,2020-02-08,Breast Cancer,Recurrent,Treatment C,Y,2020-02-17,,Active,Cerner,2026-03-18
+594,PT_002647,TRIAL_348912,Oncology Study 2023-2146,Phase III,2020-01-25,Breast Cancer,Metastatic,Treatment B,Y,2020-02-06,,Active,Cerner,2026-03-18
+8790,PT_004391,TRIAL_870560,Oncology Study 2020-2153,Phase III,2020-01-18,Breast Cancer,Remission,Treatment C,Y,2020-01-26,,Completed,Cerner,2026-03-18
+3880,PT_000402,TRIAL_630542,Oncology Study 2022-7421,Phase III,2020-01-02,Breast Cancer,Remission,Treatment A,Y,2020-01-14,,Suspended,Cerner,2026-03-18

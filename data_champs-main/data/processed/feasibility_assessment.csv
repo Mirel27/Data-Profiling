@@ -1,0 +1,51 @@
+request_id,data_point_name,domain,table_name,column_name,data_type,row_count,non_null_count,populated_pct,distinct_count,metadata_match_score,feasibility_score,rag_score,recommendation
+CDP034,overall_survival_days,outcomes,cerner_raw__cancer_diagnoses,overall_survival_days,INTEGER,1000,1000,100.0,818,3.0,0.8633,GREEN,Feasible candidate. Prioritize in downstream extraction.
+CDP004,smoking_status,demographics,cerner_raw__cancer_diagnoses,smoking_status,TEXT,1000,1000,100.0,3,3.0,0.7635,GREEN,Feasible candidate. Prioritize in downstream extraction.
+CDP027,best_treatment_response,treatment,cerner_raw__cancer_diagnoses,treatment_response,TEXT,1000,1000,100.0,4,0.878,0.529,AMBER,Potentially feasible. Validate business rules and completeness.
+CDP001,age_at_diagnosis,demographics,-,-,-,0,0,0.0,0,0.0,0.0,RED,No matching columns in schema.
+CDP002,sex,demographics,-,-,-,0,0,0.0,0,0.0,0.0,RED,No matching columns in schema.
+CDP003,ethnicity_group,demographics,-,-,-,0,0,0.0,0,0.0,0.0,RED,No matching columns in schema.
+CDP005,bmi_at_baseline,demographics,-,-,-,0,0,0.0,0,0.0,0.0,RED,No matching columns in schema.
+CDP006,charlson_index,comorbidity,-,-,-,0,0,0.0,0,0.0,0.0,RED,No matching columns in schema.
+CDP007,imd_quintile,demographics,-,-,-,0,0,0.0,0,0.0,0.0,RED,No matching columns in schema.
+CDP008,registration_date,administrative,-,-,-,0,0,0.0,0,0.0,0.0,RED,No matching columns in schema.
+CDP009,is_deceased,demographics,-,-,-,0,0,0.0,0,0.0,0.0,RED,No matching columns in schema.
+CDP010,death_date,demographics,-,-,-,0,0,0.0,0,0.0,0.0,RED,No matching columns in schema.
+CDP011,primary_cancer_site,diagnosis,-,-,-,0,0,0.0,0,0.0,0.0,RED,No matching columns in schema.
+CDP012,primary_icd10_code,diagnosis,-,-,-,0,0,0.0,0,0.0,0.0,RED,No matching columns in schema.
+CDP013,diagnosis_date,diagnosis,-,-,-,0,0,0.0,0,0.0,0.0,RED,No matching columns in schema.
+CDP014,stage_group_at_diagnosis,diagnosis,-,-,-,0,0,0.0,0,0.0,0.0,RED,No matching columns in schema.
+CDP015,morphology_code,diagnosis,-,-,-,0,0,0.0,0,0.0,0.0,RED,No matching columns in schema.
+CDP016,tnm_t,diagnosis,-,-,-,0,0,0.0,0,0.0,0.0,RED,No matching columns in schema.
+CDP017,tnm_n,diagnosis,-,-,-,0,0,0.0,0,0.0,0.0,RED,No matching columns in schema.
+CDP018,tnm_m,diagnosis,-,-,-,0,0,0.0,0,0.0,0.0,RED,No matching columns in schema.
+CDP019,metastatic_flag,diagnosis,-,-,-,0,0,0.0,0,0.0,0.0,RED,No matching columns in schema.
+CDP020,mdt_pathway,diagnosis,-,-,-,0,0,0.0,0,0.0,0.0,RED,No matching columns in schema.
+CDP021,first_treatment_start_date,treatment,-,-,-,0,0,0.0,0,0.0,0.0,RED,No matching columns in schema.
+CDP022,treatment_modality,treatment,-,-,-,0,0,0.0,0,0.0,0.0,RED,No matching columns in schema.
+CDP023,regimen_code,treatment,-,-,-,0,0,0.0,0,0.0,0.0,RED,No matching columns in schema.
+CDP024,cycle_number,treatment,-,-,-,0,0,0.0,0,0.0,0.0,RED,No matching columns in schema.
+CDP025,dose_mg,treatment,-,-,-,0,0,0.0,0,0.0,0.0,RED,No matching columns in schema.
+CDP026,treatment_intent,treatment,-,-,-,0,0,0.0,0,0.0,0.0,RED,No matching columns in schema.
+CDP028,max_toxicity_grade,treatment,-,-,-,0,0,0.0,0,0.0,0.0,RED,No matching columns in schema.
+CDP029,lines_of_therapy,treatment,-,-,-,0,0,0.0,0,0.0,0.0,RED,No matching columns in schema.
+CDP030,treatment_duration_days,treatment,-,-,-,0,0,0.0,0,0.0,0.0,RED,No matching columns in schema.
+CDP031,progression_flag,outcomes,-,-,-,0,0,0.0,0,0.0,0.0,RED,No matching columns in schema.
+CDP032,response_rate,outcomes,-,-,-,0,0,0.0,0,0.0,0.0,RED,No matching columns in schema.
+CDP033,time_to_treatment_days,outcomes,-,-,-,0,0,0.0,0,0.0,0.0,RED,No matching columns in schema.
+CDP035,one_year_survival_flag,outcomes,-,-,-,0,0,0.0,0,0.0,0.0,RED,No matching columns in schema.
+CDP036,mortality_30d_post_treatment,outcomes,-,-,-,0,0,0.0,0,0.0,0.0,RED,No matching columns in schema.
+CDP037,metastasis_at_progression,outcomes,-,-,-,0,0,0.0,0,0.0,0.0,RED,No matching columns in schema.
+CDP038,real_world_pfs_days,outcomes,-,-,-,0,0,0.0,0,0.0,0.0,RED,No matching columns in schema.
+CDP039,time_to_next_treatment_days,outcomes,-,-,-,0,0,0.0,0,0.0,0.0,RED,No matching columns in schema.
+CDP040,hospital_admission_count_12m,utilization,-,-,-,0,0,0.0,0,0.0,0.0,RED,No matching columns in schema.
+CDP041,ed_attendance_count_12m,utilization,-,-,-,0,0,0.0,0,0.0,0.0,RED,No matching columns in schema.
+CDP042,outpatient_visit_count_12m,utilization,-,-,-,0,0,0.0,0,0.0,0.0,RED,No matching columns in schema.
+CDP043,icu_admission_flag,utilization,-,-,-,0,0,0.0,0,0.0,0.0,RED,No matching columns in schema.
+CDP044,length_of_stay_total_days,utilization,-,-,-,0,0,0.0,0,0.0,0.0,RED,No matching columns in schema.
+CDP045,diagnostic_delay_days,care_pathway,-,-,-,0,0,0.0,0,0.0,0.0,RED,No matching columns in schema.
+CDP046,treatment_delay_days,care_pathway,-,-,-,0,0,0.0,0,0.0,0.0,RED,No matching columns in schema.
+CDP047,clinical_trial_enrollment_flag,care_pathway,-,-,-,0,0,0.0,0,0.0,0.0,RED,No matching columns in schema.
+CDP048,molecular_test_performed_flag,biomarkers,-,-,-,0,0,0.0,0,0.0,0.0,RED,No matching columns in schema.
+CDP049,pd_l1_expression_percent,biomarkers,-,-,-,0,0,0.0,0,0.0,0.0,RED,No matching columns in schema.
+CDP050,egfr_mutation_status,biomarkers,-,-,-,0,0,0.0,0,0.0,0.0,RED,No matching columns in schema.
